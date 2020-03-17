@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jogo de advinhação</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        
+        <script>
+            
+            let chute;
+            mostra = (frase) => document.write(frase + "<br>");
+            dica = () => {
+                chute < numero_pensado ? alert("O número que pensamos é maior") : alert("O número que pensamos é menor");
+            }
+
+            sorteia = (n) => {
+                let sorteio = Math.round(Math.random() * n);
+                return sorteio;
+            }
+
+            //Pensa no número
+            let numero_pensado = sorteia(100);
+            //Faz o palpite
+            for(tentativa = 1; tentativa <= 3; tentativa++){
+                chute = parseInt(prompt("Qual número de 0 a 100 você acha que pensei?"));
+                console.log(numero_pensado);
+
+                //resposta do sistema
+                if(numero_pensado === chute){
+                    alert("Uau! Você acertou! Pensei exatamente no "+ numero_pensado +". Parabéns!");
+                    break;
+                } else {
+                    dica() ;
+                }
+            }
+            
+            
+            
+        </script>
+    </body>
+</html>
