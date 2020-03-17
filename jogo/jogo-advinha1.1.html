@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jogo de advinhação</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+        <input type="text" id="numero">
+        <input type="submit" id="advinhar" value="Compare com o numero que estou pensando">
+        
+        <script>
+            
+            
+            let caixaDonumero = document.getElementById('numero');
+            let botaoAdvinhar = document.getElementById('advinhar');
+
+            sorteia = (n) => {
+                let sorteio = Math.round(Math.random() * n);
+                return sorteio;
+            }
+
+            let segredo = sorteia(10);
+
+            function botaoClicado() 
+            {
+                if(segredo == caixaDonumero.value) 
+                {
+                    alert("Parabéns! Você acertou o número secreto!");
+                }
+                else
+                {
+                    alert('Você errou!');
+                }
+
+                caixaDonumero.value = "";
+            }
+            
+            botaoAdvinhar.onclick = botaoClicado;
+            
+        </script>
+    </body>
+</html>

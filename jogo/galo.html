@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jogo de advinhação</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+        <p><input type="text" id="cor_galo">
+        <input type="submit" id="btn_action" value="Qual a cor do Galo?"></p>
+        
+        <script>
+            let cor_galo = document.getElementById("cor_galo");
+            let btn_action = document.getElementById("btn_action");
+
+            function meteorologia() {
+                switch(cor_galo.value){
+                    case "rosa":
+                    document.write("Vai chover bastante");
+                    break;
+                    default:
+                        document.write("Não consigo ver o Galo!");
+                }
+            }
+
+            btn_action.onclick = meteorologia;
+
+        </script>
+    </body>
+</html>
