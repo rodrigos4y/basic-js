@@ -3,6 +3,15 @@
 
 Esse projeto tem o intuito de colocar exercícios de lógica de programação e javascript. Alguns são tirados do livro: *Lógica de Programação - crie seus primeiros programas usando Javascript* e outros são idieias pegas da cabeça ou da internet.
 
+### Exercícios
+- [Idade](https://github.com/rodrigos4y/basic-js/tree/master/idade)
+- [IMC](https://github.com/rodrigos4y/basic-js/tree/master/imc)
+- [Jogos](https://github.com/rodrigos4y/basic-js/tree/master/jogo)
+- [Número primo](https://github.com/rodrigos4y/basic-js/tree/master/numero-primo)
+- [Par-Impar](https://github.com/rodrigos4y/basic-js/tree/master/par-impar)
+- [Tabuada](https://github.com/rodrigos4y/basic-js/tree/master/tabuada)
+- [Vogal](https://github.com/rodrigos4y/basic-js/tree/master/vogal)
+
 ## Meta
 
 Rodrigo Dias de Freitas – [https://rodrigos4y.github.io/](https://rodrigos4y.github.io/) – rodrigo@rdfreitas.com.br
