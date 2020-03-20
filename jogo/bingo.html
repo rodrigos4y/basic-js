@@ -14,6 +14,7 @@
 
             function adicionarSorteado(){
                 let numero = document.getElementById("number").value;
+                typeof(numero) == 'number' ? console.log('verdadeiro') : console.log('falso');
                 for(let i = 0; i < sorteados.length; i++){
                     if(sorteados[i] == numero){
                         alert("Número já sorteado");
