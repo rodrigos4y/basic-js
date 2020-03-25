@@ -11,6 +11,7 @@ Esse projeto tem o intuito de colocar exercícios de lógica de programação e 
 - [Par-Impar](https://github.com/rodrigos4y/basic-js/tree/master/par-impar)
 - [Tabuada](https://github.com/rodrigos4y/basic-js/tree/master/tabuada)
 - [Vogal](https://github.com/rodrigos4y/basic-js/tree/master/vogal)
+- [Menor número](https://github.com/rodrigos4y/basic-js/tree/master/numero-menor)
 
 ## Meta
 
