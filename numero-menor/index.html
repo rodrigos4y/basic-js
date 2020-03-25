@@ -3,25 +3,22 @@
     <head></head>
     <body>
         <script>
-            numerosArray = [1, 10, 20, 50, 0, 100, 30];
-
-            let numArray = [];
+            numerosArray = [100, 10, 20, 50, 15, 100, 30];
 
             function menorNumero(numArray)
             {
                 let menor = numArray[0];
-                let anterior = numArray[0];
 
-                for(i in numArray)
+                for(numero of numArray)
                 {
 
-                    if(menor < numArray[i])
+                    if(menor < numero)
                     {
                         menor = menor;
                         
                     } else
                     {
-                        menor = numArray[i];                        
+                        menor = numero;                        
                     }
                 }
 
