@@ -14,6 +14,6 @@ let dias = calculaDiasDeVida(idade);
 let batimentosCardiacos = calculaBatimentos(dias);
 
 
-document.write("Você já viveu " + dias + " dias.");
+document.write(`Você já viveu ${dias} dias.`);
 document.write("Seu coração bateu " + batimentosCardiacos + " vezes até agora.");
 

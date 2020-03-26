@@ -7,20 +7,7 @@
 
             function menorNumero(numArray)
             {
-                let menor = numArray[0];
-
-                for(numero of numArray)
-                {
-
-                    if(menor < numero)
-                    {
-                        menor = menor;
-                        
-                    } else
-                    {
-                        menor = numero;                        
-                    }
-                }
+                let menor = Math.min(...numArray);
 
                 return console.log(menor);
 
